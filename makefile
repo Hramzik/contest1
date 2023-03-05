@@ -21,5 +21,5 @@ all: main
 
 
 main:
-	$(call compile, $(cppfolder)/a.cpp,   $(default_path))
+	$(call compile, $(cppfolder)/i.cpp,   $(default_path))
 

@@ -63,6 +63,7 @@ int stack_work (Stack* stack) {
 
         if (!strcmp (cmd, "exit")) {
 
+            stack_dtor (stack);
             printf ("bye\n");
             return 0;
         }
